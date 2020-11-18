@@ -15,6 +15,7 @@ export default () => {
 					location: "chicago",
 				},
 			});
+		
 			setResults(response.data.businesses);
 		} catch (err) {
 			setError("Something went wrong");
